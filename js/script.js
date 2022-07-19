@@ -27,7 +27,7 @@ console.table(instruments);
 //Question 4
 
 const name = "Percival";
-let age = 13;
+const age = 13;
 
 //Question 5
 
@@ -42,27 +42,19 @@ for (let i = 0; i <= 5; i++) {
 
 //Question 7
 
-const firstName = `Florence`;
-const introduction = `Hello, my name is ` + firstName + `.`;
+const firstName = "Florence";
+const introduction = `Hello, my name is ${firstName}.`;
 console.log(introduction);
 
 //Question 8
 
-const title = `Big Technical Event`;
+const title = "Big Technical Event";
+const whatToHave = "good time";
+const welcome = `Welcome!
 
-const whatToHave = `good time`;
+This ${title} is starting today.
 
-const welcome =
-  `Welcome!
-
-This ` +
-  title +
-  ` is starting today
-
-` +
-  `Have a ` +
-  whatToHave +
-  `!`;
+Have a ${whatToHave}!`;
 
 console.log(welcome);
 
