@@ -7,6 +7,7 @@ console.log(instrument);
 
 const button = document.querySelector("button.login");
 console.log(button);
+//console.log works as console.dir in Opera
 
 //Question 3
 
